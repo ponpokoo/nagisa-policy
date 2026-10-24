@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Nagisaの設定や通知、画像、フィルター、データ削除について、よくある疑問に答えます。">
+  <meta name="color-scheme" content="light dark">
+  <title>使い方 Q&amp;A | Nagisa</title>
+  <link rel="icon" type="image/png" href="../assets/nagisa-icon.png">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">本文へ</a>
+  <div class="page">
+    <header class="site-header">
+      <a class="brand" href="../index.html">Nagisa</a>
+      <nav aria-label="メインナビゲーション">
+        <a href="../index.html">アプリ紹介</a>
+        <a href="index.html" aria-current="page">使い方</a>
+        <a href="../policy/index.html">ポリシー</a>
+      </nav>
+    </header>
+    <main id="main">
+      <nav class="breadcrumbs" aria-label="現在位置"><a href="../index.html">アプリ紹介</a></nav>
+      <div id="top" class="intro">
+        <h1>使い方 Q&amp;A</h1>
+      </div>
+      <nav class="contents" aria-label="このページの目次">
+        <ul>
+          <li><a href="#settings">設定</a></li>
+          <li><a href="#notifications">通知と通信</a></li>
+          <li><a href="#images">投稿と画像</a></li>
+          <li><a href="#filters">フィルター</a></li>
+          <li><a href="#data">データの削除</a></li>
+        </ul>
+      </nav>
+
+      <section id="settings" aria-labelledby="settings-title">
+        <h2 id="settings-title">設定</h2>
+        <h3>設定はサーバーと同期されますか？</h3>
+        <p>一部の設定は同期されます。投稿の初期公開範囲、ミュート・ブロック、サーバーのフィルターは、同じアカウントで使うほかのアプリとも共有します。文字サイズやテーマ、メディアの表示、端末内ワードミュートなどは、この端末のNagisaだけの設定です。</p>
+        <p>サーバーの設定は起動時や閲覧アカウントの切り替え時に読み込み、ミュート・ブロック・フィルターは各管理画面でも更新できます。投稿の初期設定を変更しても、編集中の投稿や保存した下書きは書き換えず、次に新しく書き始める投稿から使います。</p>
+      </section>
+
+      <section id="notifications" aria-labelledby="notifications-title">
+        <span id="notification-guide" aria-hidden="true"></span>
+        <h2 id="notifications-title">通知と通信</h2>
+        <h3>アプリを閉じている間も通知を受け取るには？</h3>
+        <p>設定 → 通知で、受け取りたいアカウントの「バックグラウンドの通知（Push）」をオンにしてください。通知の許可や再認証を求められた場合は案内に従い、状態が「有効」になるまで確認します。Android側でもNagisaの通知を許可する必要があります。</p>
+        <h3>ストリーミングは何をする機能ですか？</h3>
+        <p>閲覧中のアカウントの新着投稿や通知を、接続中に受け取る機能です。初期設定ではアプリを表示していない間は停止します。設定 → タイムラインと通信で、オン・Wi-Fiのみ・オフを選べます。</p>
+        <h3>Push通知と定期確認は、両方オンにしていいですか？</h3>
+        <p>はい。Push通知を使っていても、定期確認は補助として動きます。定期確認は約15分ごとに通知を確認しますが、端末の状態によって間隔や到着時刻は変わります。</p>
+        <h3>アプリを使っている間のバナーだけ止められますか？</h3>
+        <p>設定 → 通知の「アプリ表示中のAndroid通知」をオフにしてください。アプリを表示している間のAndroid通知が出なくなりますが、アプリ内の通知一覧や通知の受信は止まりません。</p>
+        <h3>通知が届かないときは、何を確認すればいいですか？</h3>
+        <p>Android側の通知許可と、設定 → 通知にある対象アカウントのPushの状態を確認してください。アプリを使っている間だけ出ない場合は「アプリ表示中のAndroid通知」も確認します。通信状態や端末の省電力設定などで遅れたり届かなかったりする場合があり、到着時刻や全件の到着は保証できません。</p>
+        <h3>Pushをオフにしたのに「解除待ち」と出ます。</h3>
+        <p>通信などの問題で、通知の登録解除を完了できていない状態です。アプリを起動するか表示に戻ると再試行し、画面の再試行ボタンからもやり直せます。解除が終わるまでは、解除に必要な情報を端末に保持します。</p>
+      </section>
+
+      <section id="images" aria-labelledby="images-title">
+        <span id="posting" aria-hidden="true"></span>
+        <h2 id="images-title">投稿と画像</h2>
+        <h3>画像は自動で小さくなりますか？</h3>
+        <p>Nagisaでは画像の自動縮小・再圧縮を行いません。容量を減らしたい場合は、添付する前に画像を編集してください。投稿先のサーバーで加工される場合はあります。</p>
+        <h3>投稿する前に画像が送信されますか？</h3>
+        <p>はい。添付を選ぶと、本文を書いている間にサーバーへアップロードします。この時点で投稿が公開されるわけではありません。投稿をやめた場合の添付ファイルの保存・削除は、サーバーの仕様に従います。</p>
+        <h3>画像と動画を同時に添付できないのはなぜですか？</h3>
+        <p>Nagisaでは、動画・音声は1件のみの添付に対応しており、画像などのほかのメディアと一緒には添付できません。画像と動画を両方投稿したい場合は、投稿を分けてください。</p>
+        <h3>添付の送信に失敗したときはどうすればいいですか？</h3>
+        <p>添付欄で詳細を確認し、再試行してください。サーバーでの処理が終わったか確認できない場合は、「再確認」で状態を確認できます。</p>
+      </section>
+
+      <section id="filters" aria-labelledby="filters-title">
+        <span id="filter-guide" aria-hidden="true"></span>
+        <h2 id="filters-title">フィルター</h2>
+        <h3>サーバーのフィルターと端末内ワードミュートは何が違いますか？</h3>
+        <p>サーバーのフィルターは、同じアカウントで使うほかのアプリと設定を共有します。端末内ワードミュートは、この端末のNagisaだけで本文や内容警告（CW）に含まれる言葉を判定します。両方を併用できます。</p>
+        <h3>フィルターV1のサーバーでも使えますか？</h3>
+        <p>Nagisaの公式フィルターはV2に対応しており、旧方式のV1には対応していません。V2を使えないサーバーでは、設定 → ミュート・ブロックの管理にある「端末内のワードミュート」を使えます。V1への切り替えやワードの自動移行は行いません。</p>
+        <h3>フィルターはすべての画面や通知に効きますか？</h3>
+        <p>いいえ。公式フィルターは、検索・探索・タグ・お気に入り・ブックマークには適用しません。端末内ワードミュートはこれらの画面でも使えますが、Androidの通知欄やバナーには、どちらもアプリ側での判定を適用しません。</p>
+      </section>
+
+      <section id="data" aria-labelledby="data-title">
+        <span id="data-guide" aria-hidden="true"></span>
+        <h2 id="data-title">データの削除</h2>
+        <h3>アカウントをアプリから削除すると、何が消えますか？</h3>
+        <p>設定 → アカウント管理で登録を削除すると、そのアカウントの下書き・編集中の入力・取り込んだ添付コピー・設定・履歴・閲覧キャッシュ・通知などを削除します。再ログインしても以前の下書きや履歴は戻りません。サーバー上のアカウントや投稿、元の写真、ほかのアカウントのデータ、アプリ共通設定は残ります。</p>
+        <h3>「ストレージ」で削除すると、下書きも消えますか？</h3>
+        <p>Nagisaの設定 → ストレージで削除するのは、表示に使った画像キャッシュです。アカウント・設定・下書き・編集中の添付は残ります。画像を再び表示すると、必要なキャッシュが作り直されます。</p>
+        <h3>Androidの「ストレージを消去」も同じですか？</h3>
+        <p>いいえ。Android側のストレージ消去は、Nagisaのアカウント登録や下書きなども対象になります。必要な内容を別の場所に控え、Pushをオフにして解除が終わったことを確認してから行ってください。端末のデータを消すだけでは、通知の登録が解除されない場合があります。</p>
+      </section>
+
+      <p>データの保存や削除の方針、お問い合わせ先は、<a href="../policy/index.html">ポリシー・お問い合わせ</a>をご覧ください。</p>
+      <p class="back-link"><a href="../index.html">アプリ紹介に戻る</a></p>
+    </main>
+    <footer>
+      <span>Nagisa</span>
+      <nav aria-label="フッターナビゲーション">
+        <a href="../policy/index.html#privacy">プライバシー</a>
+        <a href="../policy/index.html#terms">利用規約</a>
+        <a href="../policy/index.html#child-safety">安全基準</a>
+        <a href="../policy/index.html#deletion">データ削除</a>
+        <a href="../policy/index.html#contact">お問い合わせ</a>
+      </nav>
+      <a href="#top">先頭へ戻る</a>
+    </footer>
+  </div>
+</body>
+</html>
